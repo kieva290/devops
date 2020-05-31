@@ -37,7 +37,8 @@
 	</properties>
 
 	<distributionManagement>
-    	    <snapshotRepository>
+		<!--
+    	<snapshotRepository>
 	        	<id>snapshots</id>
 	        	<name>snapshots</name>
         		<url>http://172.31.24.216:8081/artifactory/libs-snapshot</url>
@@ -47,7 +48,19 @@
         	<id>central</id>
 	        <name>releases</name>
         	<url>http://172.31.24.216:8081/artifactory/libs-release</url>
-    	   </repository>
+    	</repository>
+		-->
+		<snapshotRepository>
+					<id>snapshots</id>
+					<name>snapshots</name>
+					<url>http://192.168.1.9:8081/artifactory/libs-snapshot</url>
+		</snapshotRepository>
+
+		<repository>
+				<id>central</id>
+				<name>releases</name>
+				<url>http://192.168.1.9:8081/artifactory/libs-release</url>
+		</repository>
 
 	</distributionManagement>
 
