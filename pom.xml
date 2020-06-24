@@ -136,11 +136,12 @@
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
+			<!--
 			<plugin>
 			  <groupId>org.apache.maven.plugins</groupId>
 			  <artifactId>maven-surefire-plugin</artifactId>
 			  <version>${surefire.version}</version><!--$NO-MVN-MAN-VER$-->
-			</plugin>
+		<!--	</plugin>
 			<plugin>
 			    <groupId>org.jacoco</groupId>
 			    <artifactId>jacoco-maven-plugin</artifactId>
@@ -157,6 +158,7 @@
 			        </execution>
 			    </executions>
 			</plugin>
+		-->	
 		</plugins>
 	</build>
 </project>
